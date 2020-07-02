@@ -1,0 +1,140 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px; 
+}
+.full-width {
+    width: 1350px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 675px;
+    float: left;
+    overflow: auto;
+}
+.third-width {
+    width: 450px; 
+    float: left;
+    overflow: auto;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+}
+/***** HEADER *****/
+header {
+    height: 800px;
+    background: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    color: #940620;
+    padding: 130px 0 0 80px;
+}
+header p {
+    width: 800px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: #07073f;
+    padding: 20px 0 0 80px; 
+}
+/***** PORTFOLIO *****/
+#portfolio {
+    height: 1450px;
+    background: #f2f1fd
+}
+#portfolio h2 {
+    color: #07073f;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+#sample-one, #sample-two, #sample-three {
+    clear: both;
+    padding: 40px 0px 40px 00px;
+}
+#portfolio img {
+    border: 1px solid #07073f;
+    margin-left: 50px;
+}
+#portfolio h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #07073f;
+}
+#portfolio h4 {
+    margin-bottom: 10px; 
+}
+#portfolio p {
+    margin-top: 0;
+}
+#portfolio h4, #portfolio p {
+    color: #07073f;
+    font-size: 22px;
+    line-height: 30px;
+}
+#portfolio .description {
+    padding-right: 40px;
+}
+/***** ABOUT *****/
+#about {
+    height: 650px;
+    background: #0c0c6d;
+}
+#about h2 {
+    padding: 20px 0 20px 0;
+    color: #dadfe1;
+}
+#about h4 {
+    margin-top: 0;
+    color: #dadfe1;
+}
+#about .description {
+    margin-right: 30px;
+}
+#about img {
+    box-sizing: border-box; 
+    margin-left: 172px
+}
+#about p {
+    font-size: 22px;
+    line-height: 30px;
+    color: #dadfe1;
+}
+/***** FOOTER *****/
+footer {
+    height: 350px;
+    background: #07073f;
+}
+footer h2 {
+    margin-bottom: 10px;
+}
+footer h2, footer h3, footer a, footer ul {
+    color: #dadfe1;
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block; 
+}
+footer #linkedin {
+    padding-right: 40px;
+}
+footer #twitter {
+    padding-right: 40px;
+}
+footer .link-container {
+    text-align: center;
+}
